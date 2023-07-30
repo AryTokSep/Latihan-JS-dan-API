@@ -1,0 +1,98 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  max-width: 1152px;
+  width: 100%;
+  padding: 0 15px;
+  background: #a3cac0;
+  margin: 0 auto;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+.aktif {
+  display: inline-block;
+}
+
+.nonAktif {
+  display: none;
+}
+
+#container {
+  background: #e4ecea;
+  width: 510px;
+  height: 420px;
+  margin-top: 30px;
+}
+
+#flag {
+  width: 170px;
+  height: 100px;
+  position: relative;
+  top: 55px;
+  margin-left: 30%;
+}
+
+
+#searchButton {
+  position: relative;
+  float: right;
+  margin-top: 47px;
+  margin-right: 5px;
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: #002222;
+  color: white;
+  cursor: pointer;
+}
+
+#namaNegara {
+  position:relative;
+  font-weight: bold;
+  top: 190px;
+  padding-left: 150px;
+}
+
+#inputNegara {
+  position: relative;
+  top: 10%;
+  border: transparent;
+  border-radius: 2px;
+  width: 80%;
+  height: 30px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+}
+
+#inputNegara::placeholder {
+  color: black;
+}
+
+#info {
+  position: relative;
+  padding-top: 100px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+#info li {
+  line-height: 25px;
+}
+
+span {
+  font-weight: bold;
+}
